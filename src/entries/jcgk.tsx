@@ -1,13 +1,13 @@
 import React, {StrictMode} from 'react';
 import {createRoot} from 'react-dom/client';
-import OrgDashboard from '../components/dashboards/OrgDashboard';
+import BaseControlDashboard from '../components/dashboards/BaseControlDashboard';
 import DashboardLayout from '../components/DashboardLayout';
 import '../index.css';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <DashboardLayout activeTab="org" isMPA={true}>
-      <OrgDashboard />
+    <DashboardLayout activeTab="jcgk" isMPA={true}>
+      <BaseControlDashboard />
     </DashboardLayout>
   </StrictMode>,
 );

@@ -20,10 +20,11 @@ const CollaborationDashboard: React.FC = () => {
         {COLLABORATION_METRICS.map((metric, index) => (
           <StatCard 
             key={index}
-            label={metric.label}
+            title={metric.label}
             value={metric.value}
             trend={metric.trend}
             icon={metric.icon}
+            colorClass={index === 0 ? "bg-blue-600" : index === 1 ? "bg-emerald-500" : index === 2 ? "bg-amber-500" : "bg-indigo-600"}
           />
         ))}
       </div>

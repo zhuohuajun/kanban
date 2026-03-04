@@ -28,13 +28,13 @@ const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab, isMPA = fals
   }, []);
 
   const tabs = [
-    { id: 'judgment', label: '预警研判', icon: LayoutDashboard, href: 'judgment.html' },
-    { id: 'quality', label: '质效评价', icon: BarChart3, href: 'quality.html' },
-    { id: 'mobile', label: '移动应用', icon: Zap, href: 'mobile.html' },
-    { id: 'standard', label: '标准运行', icon: ClipboardCheck, href: 'standard.html' },
-    { id: 'org', label: '组织管理', icon: Building2, href: 'org.html' },
-    { id: 'baseControl', label: '基础管控', icon: ShieldCheck, href: 'baseControl.html' },
-    { id: 'collaboration', label: '任务协同', icon: Handshake, href: 'collaboration.html' },
+    { id: 'yjyj', label: '预警研判', icon: LayoutDashboard, href: 'yjyj.html' },
+    { id: 'zxpj', label: '质效评价', icon: BarChart3, href: 'zxpj.html' },
+    { id: 'ydyy', label: '移动应用', icon: Zap, href: 'ydyy.html' },
+    { id: 'bzyx', label: '标准运行', icon: ClipboardCheck, href: 'bzyx.html' },
+    { id: 'zzgl', label: '组织管理', icon: Building2, href: 'zzgl.html' },
+    { id: 'jcgk', label: '基础管控', icon: ShieldCheck, href: 'jcgk.html' },
+    { id: 'rwxt', label: '任务协同', icon: Handshake, href: 'rwxt.html' },
   ];
 
   return (

@@ -6,7 +6,7 @@ import '../index.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <DashboardLayout activeTab="collaboration" isMPA={true}>
+    <DashboardLayout activeTab="rwxt" isMPA={true}>
       <CollaborationDashboard />
     </DashboardLayout>
   </React.StrictMode>

@@ -10,17 +10,17 @@ import BaseControlDashboard from './components/dashboards/BaseControlDashboard';
 import CollaborationDashboard from './components/dashboards/CollaborationDashboard';
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState<'judgment' | 'quality' | 'mobile' | 'standard' | 'org' | 'baseControl' | 'collaboration'>('judgment');
+  const [activeTab, setActiveTab] = useState<'yjyj' | 'zxpj' | 'ydyy' | 'bzyx' | 'zzgl' | 'jcgk' | 'rwxt'>('yjyj');
 
   const renderDashboard = () => {
     switch (activeTab) {
-      case 'judgment': return <JudgmentDashboard />;
-      case 'quality': return <QualityDashboard />;
-      case 'mobile': return <MobileDashboard />;
-      case 'standard': return <StandardDashboard />;
-      case 'org': return <OrgDashboard />;
-      case 'baseControl': return <BaseControlDashboard />;
-      case 'collaboration': return <CollaborationDashboard />;
+      case 'yjyj': return <JudgmentDashboard />;
+      case 'zxpj': return <QualityDashboard />;
+      case 'ydyy': return <MobileDashboard />;
+      case 'bzyx': return <StandardDashboard />;
+      case 'zzgl': return <OrgDashboard />;
+      case 'jcgk': return <BaseControlDashboard />;
+      case 'rwxt': return <CollaborationDashboard />;
       default: return <JudgmentDashboard />;
     }
   };
